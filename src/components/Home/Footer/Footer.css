@@ -1,0 +1,11 @@
+.footer {
+    height: 10vh;
+    background-color: var(--background-primary-color);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: space-around;
+    font-family: var(--primary-font);
+    color: var(--home-primary-font-color);
+    font-size: small;
+}

@@ -1,0 +1,31 @@
+.header{
+    background-color:var(--background-primary-color);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 85%;
+    margin-left: 2.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    object-fit: cover;
+    width: auto;
+    height: 100%;
+}
+
+.logo p{
+    margin-left: 0.8rem;
+    font-family:var(--primary-font);
+    font-weight:600;
+    color: var(--home-primary-font-color);
+}
+
+.login_button{
+    margin-right: 2.3rem;
+}
