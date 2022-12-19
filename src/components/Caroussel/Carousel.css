@@ -1,0 +1,38 @@
+.carousel{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+@keyframes sideswap{
+    0% {
+        transform: translate(0%);
+    }
+    40%{transform: translate(0%);}
+    60%{transform: translate(-100%);}
+    100% {
+        transform: translate(-100%);
+    }
+}
+.carousel-inner{
+    display: flex;
+    animation-name: sideswap;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.carousel-container{
+    overflow: hidden;
+    width: 100vw;
+}
+
+.carousel-item{
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
